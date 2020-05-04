@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 date: 2020-05-05T00:21:29+08:00
-draft: true
 ---
 
 ## 个人简介
