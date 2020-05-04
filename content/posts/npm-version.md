@@ -1,7 +1,6 @@
 ---
 title: "Npm Version"
 date: 2020-05-04T19:23:01+08:00
-draft: true
 ---
 # 关于 `npm version` 的使用
 
