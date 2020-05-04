@@ -30,7 +30,7 @@ license = ""  # CC License
 fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
 
 [params.comments]
-enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
+enable = true  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
 [params.math]
 enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
@@ -43,7 +43,7 @@ darkTheme = "xcode-dark"  # apply this theme in dark mode
 
 [params.share]
 enable = false
-addThisId = ""
+addThisId = "ra-5eb047212ecfe30b"
 inlineToolId = ""
 
 [params.nav]
@@ -59,3 +59,14 @@ url = "/about"
 [[params.nav.custom]]
 title = "Github"
 url = "https://github.com/mopig"
+
+# Display author profile at article bottom
+
+[params.profile]
+  enable = true
+  name = "Leo"
+  bio = "*Love & Peace*"  # support markdown syntax
+  twitter = "leoaee"  # https://twitter.com/XXX
+  github = "mopig"  # https://github.com/XXX
+  docker = "mopig"  # https://hub.docker.com/u/XXX
+  email = "admin@xiaozhu.dev"  # mailto:XXX@mail.com
