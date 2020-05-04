@@ -1,5 +1,5 @@
 baseURL = "https://xiaozhu.dev"
-title = "小猪的部落格"
+title = "小猪"
 theme = "hugo-notepadium"
 copyright = "©2020 Leo"
 
@@ -57,5 +57,5 @@ title = "About"
 url = "/about"
 
 [[params.nav.custom]]
-title = "Hugo"
-url = "https://xiaozhu.dev/"
+title = "Github"
+url = "https://github.com/mopig"
