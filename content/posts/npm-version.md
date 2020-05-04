@@ -1,6 +1,8 @@
 ---
 title: "Npm Version"
 date: 2020-05-04T19:23:01+08:00
+categories: ["技术"]
+tags: ["npm", "语义化", "版本管理"]
 ---
 # 关于 `npm version` 的使用
 
