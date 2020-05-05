@@ -69,7 +69,7 @@ url = "/about"
   twitter = "leoaee"  # https://twitter.com/XXX
   github = "mopig"  # https://github.com/XXX
   docker = "mopig"  # https://hub.docker.com/u/XXX
-  email = "admin@xiaozhu.dev"  # mailto:XXX@mail.com
+  email = "leoaee@gmail.com"  # mailto:XXX@mail.com
 
 [taxonomies]
   category = "categories"
