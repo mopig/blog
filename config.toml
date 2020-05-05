@@ -1,4 +1,4 @@
-baseURL = "https://blog.rustguru.com"
+baseURL = "https://xiaozhu.dev"
 title = "小猪"
 theme = "hugo-notepadium"
 copyright = "©2020 Leo"
