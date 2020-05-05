@@ -12,7 +12,7 @@ enableRobotsTXT = true
 #disqusShortname = "XXX"
 
 # Google Analytics
-#googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-165555892-1"
 
 [markup.highlight]
 codeFences = true
