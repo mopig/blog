@@ -24,8 +24,8 @@ unsafe = true  # enable raw HTML in Markdown
 [params]
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
-logo = ""  # if you have a logo png
-slogan = "「己所不欲 勿施于人」"
+# logo = "./apple-touch-icon.png"  # if you have a logo png
+# slogan = "「己所不欲 勿施于人」"
 license = ""  # CC License
 fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
 
@@ -56,9 +56,9 @@ showTags = true             # /tags/
 title = "About"
 url = "/about"
 
-[[params.nav.custom]]
-title = "Github"
-url = "https://github.com/mopig"
+# [[params.nav.custom]]
+# title = "Github"
+# url = "https://github.com/mopig"
 
 # Display author profile at article bottom
 
