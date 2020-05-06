@@ -11,6 +11,9 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 # Go To Public folder
 cd public
 
+# copy README.md to current directory
+cp ../README.md ./
+
 # Add changes to git.
 git add .
 
