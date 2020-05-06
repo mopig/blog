@@ -1,4 +1,4 @@
-baseURL = "https://xiaozhu.dev"
+baseURL = "https://xiaozhu.dev/"
 title = "小猪"
 theme = "hugo-notepadium"
 copyright = " & Leo"
