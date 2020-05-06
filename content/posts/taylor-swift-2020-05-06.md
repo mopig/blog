@@ -4,7 +4,6 @@ date: 2020-05-06T20:11:59+08:00
 categories: ["图片"]
 tags: ["美图", "Taylor Swift"]
 Description: "Taylor Swift，高清，美女，泰勒•斯威夫特"
-cover: "https://cdn.jsdelivr.net/gh/mopig/oss@master/uPic/202005/fuIB9n.jpg"
 ---
 > 美好的事物总让人开心 🌉
 
