@@ -3,6 +3,7 @@ title: "Algorithm Count One"
 date: 2020-05-04T20:13:45+08:00
 categories: ["技术"]
 tags: ["算法"]
+Description: "算法，计算机，it，统计小于 n 的数字中 1 的个数，algorithm"
 ---
 
 # 统计小于 n 的数字中 1 的个数
