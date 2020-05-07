@@ -23,7 +23,7 @@ unsafe = true  # enable raw HTML in Markdown
 [params]
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
-# logo = "./apple-touch-icon.png"  # if you have a logo png
+logo = "./xiaozhu_logo.png"  # if you have a logo png
 # slogan = "「己所不欲 勿施于人」"
 author = "小猪"
 description = "Javascript，前端，编程，小猪，有趣的灵魂，科技，人文，想法，随笔，思考，感叹，瞬间，笔记..."
