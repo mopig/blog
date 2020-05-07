@@ -24,10 +24,10 @@ unsafe = true  # enable raw HTML in Markdown
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
 logo = "./xiaozhu_logo.png"  # if you have a logo png
-slogan = "「己所不欲 勿施于人」"
+slogan = "「己所不欲 🙏 勿施于人」"
 author = "小猪"
 description = "Javascript，前端，编程，小猪，有趣的灵魂，科技，人文，想法，随笔，思考，感叹，瞬间，笔记..."
-license = ""  # CC License
+license = "版权申明：转载请注明来源且附上链接"  # CC License
 fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
 cover = "https://cdn.jsdelivr.net/gh/mopig/oss@master/uPic/202005/THe5ip.jpg"
 
