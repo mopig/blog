@@ -53,6 +53,9 @@ showCategories = true       # /categories/
 showTags = true             # /tags/
 
 # custom navigation items
+[[params.nav.custom]]
+title = "Links"
+url = "/links"
 
 [[params.nav.custom]]
 title = "About"
