@@ -16,24 +16,40 @@ tags: ["简历", "技能", "学习", "提升"]
 ### 🔠 语言 OR 语法糖
 
 - JavaScript
+- HTML - Pug
+- CSS - Sass/Less/Stylus/Postcss
 - TypeScript
-- Python
-- Java
+- Python - Tornado/Flask/Django
+- Java - SpringBoot/SpringCloud
 - Rust
-- Shell
+- Shell - Bash/Zsh
 
 ### 📦 框架 OR 平台
 
-- Reactjs
-- Vuejs
+- Reactjs - Redux/Gatsbyjs/Nextjs
+- Vuejs - Vuex/Vuepress/Vite
+- Svelte - Sapper
 - Angular
-- Svelte
-- Nodejs
+- Nodejs - Koa/Express/Egg
+- Electron
+- Jest
+- Cypress - E2E
+- Puppeteer
+- GraphQL
+- 微信小程序 - wepy/kbone
+- PWA
+- 前端组件库 - Element/AntDesign/iView/Material
+- 移动端 only 前端组件库 - Vant/Cube-ui
+- UmiJS
 
 ### 🛠 工具 OR 周边
 
 - Git
 - Webpack
+- Babeljs
+- Prettier
+- yarn
+- npm
 - Rollup
 - Snowpack
 - Nginx
@@ -41,3 +57,5 @@ tags: ["简历", "技能", "学习", "提升"]
 - Linux
 - VS Code
 - Chrome Devtools
+- iterm2
+- 浏览器渲染机制
