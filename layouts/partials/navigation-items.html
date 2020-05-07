@@ -1,0 +1,18 @@
+{{- $nav := . -}}
+{{- if or $nav.showCategories $nav.showTags $nav.custom -}}
+<div class="nav wrap"><nav class="nav">
+    {{- if $nav.showCategories -}}
+        <a class="nav item" href="{{- `/categories/` | relLangURL -}}">分类</a>
+    {{- end -}}
+    {{- if $nav.showTags -}}
+        <a class="nav item" href="{{- `/tags/` | relLangURL -}}">标签</a>
+    {{- end -}}
+    {{- range $nav.custom -}}
+        {{- $url := .url | safeURL -}}
+        {{- if strings.HasPrefix $url "/" -}}{{- $url = $url | relLangURL -}}{{- end -}}
+        <a class="nav item" href="{{- $url -}}"
+            {{- if strings.HasPrefix $url "http" -}}target="_blank"
+            {{- end -}}>{{- .title -}}</a>
+    {{- end -}}
+</nav></div>
+{{- end -}}

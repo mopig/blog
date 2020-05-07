@@ -54,11 +54,11 @@ showTags = true             # /tags/
 
 # custom navigation items
 [[params.nav.custom]]
-title = "Links"
+title = "友链"
 url = "/links"
 
 [[params.nav.custom]]
-title = "About"
+title = "关于"
 url = "/about"
 
 # [[params.nav.custom]]
