@@ -1,7 +1,7 @@
 ---
 title: "test"
 date: 2020-05-04T19:23:01+08:00
-debug: true
+draft: true
 ---
 
 ### bilibili 视频 shortcodes
