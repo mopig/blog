@@ -3,7 +3,7 @@ title = "小猪"
 theme = "hugo-notepadium"
 copyright = " & Leo"
 
-languageCode = "zh-cn"
+languageCode = "zh-CN"
 hasCJKLanguage = true
 enableRobotsTXT = true
 
