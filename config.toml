@@ -54,7 +54,7 @@ showTags = true             # /tags/
 
 # custom navigation items
 [[params.nav.custom]]
-title = "友链"
+title = "收藏"
 url = "/links"
 
 [[params.nav.custom]]
