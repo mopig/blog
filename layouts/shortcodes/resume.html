@@ -1,0 +1,41 @@
+<div id="resume" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+  <form id="resume-form">
+    <input id="password" type="text" placeholder="请输入密码 Enter" style="margin-right: 10px;" />
+    <button id="get-resume" type="submit">获取简历地址</button>
+  </form>
+  <p id="resumeUrl">
+
+  </p>
+</div>
+<script type="text/javascript">
+  const container = document.querySelector('#resume')
+  const getBtn = document.querySelector('#get-resume')
+  const input = document.querySelector('#password')
+  const urlBox = document.querySelector('#resumeUrl')
+  const form = document.querySelector('#resume-form')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+  })
+
+  getBtn.addEventListener('click', async () => {
+    urlBox.innerHTML = ''
+    const val = input.value
+    if (!val) {
+      alert('请输入密码!')
+      return
+    }
+    getBtn.setAttribute('disabled', true)
+    const res = await fetch('https://private-api-vercel.febook.now.sh/api/getResume?password=' + val)
+    const ret = await res.json()
+    getBtn.removeAttribute('disabled')
+    console.log(ret)
+    if (ret.auth) {
+      urlBox.innerHTML = `
+        <a href="${ret.resumeUrl}" target="_blank">${ret.resumeUrl}</a>
+      `
+    } else {
+      alert('密码错误，请向作者确认密码')
+    }
+  })
+</script>
