@@ -26,7 +26,7 @@
       return
     }
     getBtn.setAttribute('disabled', true)
-    const res = await fetch('https://private-api-vercel.febook.now.sh/api/getResume?password=' + val)
+    const res = await fetch('https://resume-api.xiaozhu.dev/api/getResume?password=' + val)
     const ret = await res.json()
     getBtn.removeAttribute('disabled')
     console.log(ret)
