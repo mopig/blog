@@ -5,8 +5,9 @@ categories: ["技术"]
 tags: ["vue", "前端框架", "vue3"]
 Description: "Vue 3 的创造过程"
 ---
-> 原文链接[The process: Making Vue 3 by EVAN YOU](https://increment.com/frontend/making-vue-3/)
-> 重写 Vue.js 的下一个主要版本的经验教训。
+> 原文链接：[The process: Making Vue 3 by EVAN YOU](https://increment.com/frontend/making-vue-3/)
+>
+> 重写 Vue.js 的下一个主要版本的经验教训
 
 在过去的一年中，Vue 团队一直在研究 Vue.js 的下一个主要版本，我们希望在2020年上半年发布该版本。（在撰写本文时，这项工作仍在进行中）。 Vue 的主要版本于2018年底形成，当时 Vue 2 的代码库已有两年半的历史了。在通用软件的生命周期中听起来可能并不长，但在此期间，前端环境发生了巨大变化。
 
