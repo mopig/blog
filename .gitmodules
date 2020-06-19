@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:mopig/mopig.github.com.git
 	branch = master
+[submodule "themes/even"]
+	path = themes/even
+	url = https://github.com/olOwOlo/hugo-theme-even
