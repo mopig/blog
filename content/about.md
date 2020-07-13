@@ -8,7 +8,7 @@ description: "我是一名前端工程师，技术栈主要包括 Reactjs/Vuejs/
 
 - 职业：💻 前端工程师
 - 爱好：⌨️ Coding，音乐
-- 提升：👨🏻‍💻 [技能 & 学习列表](/posts/skills)
+- 提升：👨🏻‍💻 [技能 & 学习列表](/post/skills)
 - 简历：🗒 [Resume](/resume)
 - 状态：🔍 目前在看机会
 
