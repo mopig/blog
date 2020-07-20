@@ -18,6 +18,11 @@ jobs:
           hugo-version: '0.74.2'
           # extended: true
 
+      - name: Set private key
+        uses: webfactory/ssh-agent@v0.4.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Configure git
         run: |
           git config --global user.email "admin@xiaozhu.dev"
