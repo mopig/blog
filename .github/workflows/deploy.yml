@@ -18,13 +18,13 @@ jobs:
           hugo-version: '0.74.2'
           # extended: true
 
-      - name: Deploy
-        run: ./deploy.sh
-
       - name: Configure git
         run: |
           git config --global user.email "admin@xiaozhu.dev"
           git config --global user.name "rust-bot"
+
+      - name: Deploy
+        run: ./deploy.sh
 
       - name: Commit submodule changes
         run: |
