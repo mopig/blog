@@ -1,9 +1,9 @@
 ---
-title: "创造 Vue3 的过程"
+title: "创造 Vue3 的过程「译」"
 date: 2020-06-02T23:01:14+08:00
 categories: ["技术"]
 tags: ["vue", "前端框架", "vue3"]
-Description: "Vue 3 的创造过程"
+Description: "Vue 3 的创造过程「译」"
 ---
 > 原文链接：[The process: Making Vue 3 by EVAN YOU](https://increment.com/frontend/making-vue-3/)
 >
