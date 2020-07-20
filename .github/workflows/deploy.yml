@@ -28,8 +28,6 @@ jobs:
         run: |
           git config --global user.email "admin@xiaozhu.dev"
           git config --global user.name "rust-bot"
-      - name: Init submodule recursive
-        run: git submodule update --init --recursive
 
       - name: Deploy
         run: | # same to .../deploy.sh
