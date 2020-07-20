@@ -1,0 +1,33 @@
+name: deploy blog
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '59 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.2'
+          # extended: true
+
+      - name: Deploy
+        run: ./deploy.sh
+
+      - name: Configure git
+        run: |
+          git config --global user.email "admin@xiaozhu.dev"
+          git config --global user.name "rust-bot"
+
+      - name: Commit submodule changes
+        run: |
+          git add .
+          git commit -m 'chore: rebuild blog' || exit 0
+          git push
