@@ -2,8 +2,6 @@ name: deploy blog
 on:
   push:
   workflow_dispatch:
-  schedule:
-    - cron:  '59 * * * *'
 
 jobs:
   build:
