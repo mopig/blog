@@ -11,6 +11,9 @@ hugo --minify # if using a theme, replace with `hugo -t <YOURTHEME>`
 # Go To Public folder
 cd public
 
+# checkout master
+git checkout master
+
 # copy README.md to current directory
 cp ../README.md ./
 
