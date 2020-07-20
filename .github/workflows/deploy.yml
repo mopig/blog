@@ -43,6 +43,7 @@ jobs:
           fi
           git commit -m "$msg"
           git push origin master
+          echo "=> commit"
           cd ..
 
       - name: Commit submodule changes
