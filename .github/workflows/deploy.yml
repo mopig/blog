@@ -42,8 +42,7 @@ jobs:
             msg="$*"
           fi
           git commit -m "$msg"
-          git push origin master
-          echo "=> commit"
+          git push origin master && echo "=> commit success"
           cd ..
 
       - name: Commit submodule changes
