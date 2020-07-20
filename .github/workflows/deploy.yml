@@ -42,7 +42,7 @@ jobs:
             msg="$*"
           fi
           git commit -m "$msg" || exit 0
-          git push && echo "=> commit success"
+          git push origin HEAD:master && echo "=> commit success"
           git log
           cd ..
 
