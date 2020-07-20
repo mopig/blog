@@ -29,7 +29,20 @@ jobs:
         run: git submodule update --init --recursive
 
       - name: Deploy
-        run: ./deploy.sh
+        run: | # same to .../deploy.sh
+          set -e
+          printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+          hugo --minify
+          cd public
+          cp ../README.md ./
+          git add .
+          msg="rebuilding site $(date)"
+          if [ -n "$*" ]; then
+            msg="$*"
+          fi
+          git commit -m "$msg"
+          git push origin master
+          cd ..
 
       - name: Commit submodule changes
         run: |
