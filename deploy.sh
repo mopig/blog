@@ -25,7 +25,7 @@ msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
-git commit -m "$msg"
+git commit -m "$msg" || exit 0
 
 # Push source and build repos.
 git push origin master
