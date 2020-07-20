@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
+        ssh-key: ${{secrets.SSH_PRIVATE_KEY}}
+        submodules: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -16,10 +18,10 @@ jobs:
           hugo-version: '0.74.2'
           # extended: true
 
-      - name: Set private key
-        uses: webfactory/ssh-agent@v0.4.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      # - name: Set private key
+      #   uses: webfactory/ssh-agent@v0.4.0
+      #   with:
+      #     ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Configure git
         run: |
