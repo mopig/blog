@@ -41,8 +41,8 @@ jobs:
           if [ -n "$*" ]; then
             msg="$*"
           fi
-          git commit -m "$msg"
-          git push origin master && echo "=> commit success"
+          git commit -m "$msg" || exit 0
+          git push && echo "=> commit success"
           git log
           cd ..
 
