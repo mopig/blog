@@ -81,4 +81,4 @@ antigen theme romkatv/powerlevel10k
 
 ## 效果图
 
-![iTerm2 效果图](https://raw.githubusercontent.com/cntrump/hugo-notepadium/master/images/)
+![iTerm2 效果图](https://cdn.jsdelivr.net/gh/mopig/oss@master/uPic/202103/Screen Shot 2021-03-25 at 17.45.42.png)
