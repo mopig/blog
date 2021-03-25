@@ -79,3 +79,6 @@ antigen theme romkatv/powerlevel10k
 - `nrm` - `yarn` 全局安装
 - `pnpm` - `yarn` 全局安装
 
+## 效果图
+
+![iTerm2 效果图](https://raw.githubusercontent.com/cntrump/hugo-notepadium/master/images/)
